@@ -1,0 +1,11 @@
+ .footerDiv{
+    width:70% ;
+    /* border: 1px solid green; */
+    margin: auto;
+    text-align: left;
+    margin-top: 5rem;
+}
+
+.footerDiv>h4{
+    color:"#800080";margin-left:"100px"
+}

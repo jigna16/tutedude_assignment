@@ -1,0 +1,133 @@
+.main {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.withdrawBox {
+    width: 40%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1rem;
+    height: auto;
+}
+
+.TopContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.TopContainerChild {
+    display: flex;
+    gap: 30px;
+}
+
+.firstChild p {
+    font-style: normal;
+    color: #800080;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.firstChild p+p {
+    font-style: normal;
+    color: black;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.Referral {
+    width: 40%;
+    height: auto;
+}
+
+.ButtonColor {
+    width: 180px;
+    height: 40px;
+    left: 153px;
+    top: 119px;
+    color: white;
+    background: #800080;
+    border-radius: 20px;
+    padding: 8px 16px;
+    gap: 10px;
+
+}
+
+
+.Referral h3 {
+    width: 228px;
+    height: 36px;
+    left: 766px;
+    top: 179px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #800080
+}
+
+.ReferralFirst {
+    border: 1px solid red;
+    width: 350px;
+    padding: 1rem;
+    border: 2px solid;
+    border-image: linear-gradient(90deg, rgba(254, 133, 76, 1) 0%, rgba(128, 0, 128, 1) 53%);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+
+.ReferralFirst div {
+    margin: auto;
+    width: 230px;
+    height: 30px;
+    display: flex;
+    left: 64px;
+    top: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.5em;
+    color: #800080;
+}
+
+
+@media screen and (min-width:320px) and (max-width:420px) {
+    .main {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: auto;
+
+    }
+
+    .withdrawBox {
+        width: 90%;
+        margin: auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 1rem;
+        height: auto;
+    }
+
+    .Referral {
+        width: 90%;
+        height: auto;
+        margin: auto;
+
+    }
+
+    .ReferralFirst {
+        width: auto;
+    }
+
+
+    .TopContainerChild {
+        gap: 0;
+    }
+}
